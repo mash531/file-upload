@@ -20,9 +20,16 @@
     <p>File Uploadとは、医学生のための授業資料ダウンロードサービスです。</p>
     
     <p>ログインすることで、先生がアップロードした資料を閲覧・ダウンロードすることができます。</p>
+      @if (Route::has('login'))
+       @auth
+    <p><a href="{{ asset('/sample.mov')}}">使い方のサンプル</a></p>
+    <p><a href="{{ url('/welcome')}}">トップページに戻る</a></p>
+    @else
     <p><a href="{{ asset('/sample.mov')}}">使い方のサンプル</a></p>
     <p><a href="{{ url('/welcome')}}">トップページに戻る</a></p>
     <p><a href="{{ url('/register')}}">登録はこちらから</a></p>
+    @endif
+    @endauth
     </div>
 </div>
 
