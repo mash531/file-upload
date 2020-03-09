@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>File Upload</title>
+	<title>Medified</title>
 </head>
 <body>
 

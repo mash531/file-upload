@@ -12,11 +12,12 @@
     </style>
 <head>
 	<meta charset="UTF-8">
-	<title>File Upload</title>
+	<title>Medified</title>
 </head>
 <body>
     <div class="row justify-content-center">
         <div class="content">
+            <p>Medifiedとは、医学生の勉強を一元化するものです。</p>
     <p>File Uploadとは、医学生のための授業資料ダウンロードサービスです。</p>
     
     <p>ログインすることで、先生がアップロードした資料を閲覧・ダウンロードすることができます。</p>

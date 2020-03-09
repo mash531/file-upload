@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>File Uplpad</title>
+        <title>Medified</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -64,13 +64,22 @@
                 justify-content: center;
                 text-align: center;
             }
+            #flex{
+                font-size: 50px;
+            }
+            h1{
+                margin-top:3px;
+                margin-bottom:3px;
+            }
         </style>
     </head>
     <body>
-         <div class="title m-b-md">
-                    File Upload
+         <div class="title m-b-md" id="title">
+<h1>Medified</h1>
+</div>
+        <div class="flex-center" id="flex">
+<p>〜File Upload〜</p>
                 </div>
-                
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="links">
