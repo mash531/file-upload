@@ -17,7 +17,7 @@
 <body>
     <div class="row justify-content-center">
         <div class="content">
-            <p>Medifiedとは、医学生の勉強を一元化するものです。</p>
+            <p>Medifiedとは、医学生の勉強に関する資料を一つにまとめ、勉強の効率を上げるためのものです。</p>
     <p>File Uploadとは、医学生のための授業資料ダウンロードサービスです。</p>
     
     <p>ログインすることで、先生がアップロードした資料を閲覧・ダウンロードすることができます。</p>
